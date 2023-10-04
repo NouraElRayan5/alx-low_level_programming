@@ -36,7 +36,7 @@ s2 = "\0";
 }
 bi = _strlen(s1);
 ci = _strlen(s2);
-m = malloc((bi + ci) * sizeof(char) + 1);
+m = malloc((bi + ci)* sizeof(char) + 1);
 if (m == 0)
 {
 return (0);
